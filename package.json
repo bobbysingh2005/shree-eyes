@@ -2,7 +2,19 @@
   "name": "shree-eyes",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:bobbysingh2005/shree-eyes.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
   "author": "bobby singh <bobbysingh2005@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "this is group of accessibility tools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbysingh2005/shree-eyes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bobbysingh2005/shree-eyes/issues"
+  },
+  "homepage": "https://github.com/bobbysingh2005/shree-eyes#readme"
 }
