@@ -1,14 +1,19 @@
 {
   "name": "shree-eyes",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "bobby singh <bobbysingh2005@gmail.com>",
   "license": "MIT",
-  "description": "this is group of accessibility tools",
+  "description": "innovative application designed to assist blind and visually impaired individuals",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "app"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bobbysingh2005/shree-eyes.git"
